@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Blog Post 1</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,22 +28,13 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+      <a class="navbar-brand" href="index.html">Calen Irwin</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="post.html">Sample Post</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
@@ -59,11 +50,11 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Man must explore, and this is exploration at its greatest</h1>
-            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+            <h1>Applications of Artificial Neural Networks</h1>
+            <h2 class="subheading">Games of Strategy</h2>
             <span class="meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on August 24, 2019</span>
+              <a href="#">Calen Irwin</a>
+              on February 22, 2020</span>
           </div>
         </div>
       </div>
@@ -75,42 +66,36 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+          <p>Competition is a driving force for much of what we do as humans. A great way for us to expend our competitive urges is by playing games. Every culture has games that have developed over long periods of time and masters of those games who elevated the game to a new level. In the last few decades however, there has been both a surplus of games and a surplus of “masters”. This phenomenon has contributed to the pursuit of new heights in mastery of a variety of games, most notably chess and go. This pursuit has coincided with the emergence and development of artificial intelligence. Games such as chess have been an object of interest for artificial intelligence researchers since the earliest AI models were created. This interest is due to the complexity and dynamic nature of chess. In the game, there are a large number of factors to consider at every point and the optimal move is often unclear. In order to push these games and the field of AI further, players and programmers have worked together to develop intelligent computers to play them. In this paper, I will discuss how artificial neural networks (ANNs) are being used in conjunction with reinforcement learning techniques to build truly unbeatable computer agents, such as AlphaZero, in popular strategy games. I will begin by explaining what artificial neural networks are and why they are uniquely suited to play games.
+          </p>
 
-          <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+          <p>The general structure of an ANN is modeled after the nervous system. It is made up of an input layer, any number of hidden layers, and an output layer. These layers are comprised of neurons, or nodes, that are connected with synapses. ANNs are mathematical models that only take numerical inputs. Inputs are applied weights as they travel across synapses and functions are performed on them in the hidden layers. These types of techniques are known as supervised models because they require knowledge about their inputs in order to learn. There are several strategies for training an ANN, but what is crucial for them all is feedback. All systems need feedback. They must know what they are doing right and what they are doing wrong. With ANNs, this is typically accomplished with back-propagation. This is the process of moving backwards through the network, from the output layer to the input layer, and adjusting the weights in order to modify the output. If there is some known, desired output than this process will be carried out until the weights are such that the desired output is achieved. This concept of feedback is at the heart of a field of study called Reinforcement Learning.
+           </p>
 
-          <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+          <p>How specifically can an ANN be used to play a game like chess? I will now discuss the preeminent computer program for mastering strategy games, specifically chess, shogi, and go, known as AlphaZero. AlphaZero was developed by the artificial intelligence research company DeepMind in 2017. It uses a general reinforcement learning algorithm and extensive self-play, rather than heavy amounts of domain knowledge about each game. This means that the AlphaZero algorithm could be generalized for other games beyond what I previously mentioned. In the case of chess, AlphaZero uses board positions as the input to its ANN. The outputs of its ANN are vectors of chess move probabilities which is comprised of the probability of each action and a value representing the expected outcome of that action. AlphaZero is trained using reinforcement learning techniques applied to games played against itself. It uses an efficient Monte Carlo Tree Search algorithm to play a large quantity of games. After each game, it determines if the game was a loss, draw, or victory and then adjust its weights. Weights are adjusted to reduce the difference between the predicted outcome and the actual outcome (“AlphaZero: Shedding…”).
+          </p>
 
-          <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+          <p>ANNs are suited for strategy games because they are modeled after how we humans learn and play games. We rely heavily on feedback and past experiences. Mastery of a complex game involves more than extensive domain knowledge. Computer programs have a distinct advantage over humans in terms of processing power and storage capacity, but what they struggle with is nuance and adapting to change. ANNs and reinforcement learning allow computers to make up for this weakness. This benefit can clearly be seen if we look back at AlphaZero. AlphaZero defeated the world-champion computer chess program “Stockfish”, winning 155 games and only loosing 6 games after playing 1,000 games (“AlphaZero: Shedding…”). Stockfish is reliant on domain knowledge and a computationally heavy search algorithm. When competing against a more dynamic program, Stockfish falls short.
+          </p>
 
-          <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+          <p>ANNs are powerful and adaptable tools, but they are only as good as the learning technique that it is applied to it. The recent growth in the Reinforcement Learning field has led the re-emergence of ANNs. ANNs were first formalized in the 1940s, but new learning algorithms and high-performance computing has allowed researchers to unlock the potential of ANNs (Dacombe). AI research company OpenAI recently released a new opensource reinforcement learning algorithm known as Hindsight Experience Replay (Galeon). HER is described as a formalization of how humans intuitively learn, which is by learning from our mistakes. This is based on the belief that failed attempts inevitably lead to “unintended goals”. By rewarding every single attempt, HER allows models to train more quickly and develop better models.
+          </p>
 
-          <h2 class="section-heading">The Final Frontier</h2>
+          <p>AlphaZero and HER are setting a course for the future of AI powered gaming engines. For AI to make the next step of functionality, it must become superhuman. A superhuman AI is one that processes like a computer, but with the deeply interconnected and adaptable nature of human thought. If this stage were achieved, AI agents would be able to master any and all games simply by being told the rules of the game. AlphaZero is certainly a step in the right direction. It has proven its ability to outperform advanced computer programs at three complicated games with no inputs other than the core rules of the game (“AlphaZero: Shedding…). This was made possible due to advances in learning algorithms which eliminated the need for extensive domain knowledge made by experts. In the short time that AlphaZero has existed, it has uncovered a unique and dynamic style of playing chess that has astonished masters. Continued advancements in this area of AI will reshape how old games are played and how new games are developed. Generalized AIs will present unique strategies and ways of playing for all games they are applied to. They could also be leveraged to “work backwards” and create new games from the rules and strategies that they have learned from playing other games.</p>
+
+          <p>In conclusion, ANNs are an artificial intelligence technique that can be used to create computer programs that can master strategic games such as chess. ANNs are mathematical models that are modeled after the biological nervous system. They take some numerical input, apply weights and functions, and produce some numerical output. These networks can be applied to solve a number of problems in an intelligent manner when they successfully incorporate feedback. Advancements in the area of study known as Reinforcement Learning have led to the success of a somewhat generalized game-playing program known as AlphaZero. AlphaZero is on the leading edge of technology in this area. It has shown the advantage of a generalized approach to a game-playing engine by outperforming other AI agents. I estimate that future versions of generalized AI programs will eventually be able to design new, interesting, and complex games based on its “experiences” playing other games, with little to no domain knowledge.
+          </p>
 
           <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
 
           <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
 
-          <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-          <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-          <h2 class="section-heading">Reaching for the Stars</h2>
-
-          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-          <a href="#">
-            <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-          </a>
-          <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-          <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-          <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-          <p>Placeholder text by
-            <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
-            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+          <br>
+          <br>
+          <p>References</p>
+          <p>“AlphaZero: Shedding New Light on the Grand Games of Chess, Shogi and Go.” Deepmind, deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go.</p>
+          <p>Dacombe, James. “An Introduction to Artificial Neural Networks (with Example).” Medium, Medium, 23 Oct. 2017, medium.com/@jamesdacombe/an-introduction-to-artificial-neural-networks-with-example-ad459bb6941b.</p>
+          <p>Galeon, Dom. “New Algorithm Lets AI Learn from Mistakes, Become a Little More Human.” Futurism, Futurism, 2 Mar. 2018, futurism.com/ai-learn-mistakes-openai.</p>
         </div>
       </div>
     </div>
@@ -125,7 +110,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://twitter.com/calenirwin1">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
@@ -133,7 +118,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.facebook.com/cale.irwin.54">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
@@ -141,7 +126,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/calenirwin">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -149,7 +134,7 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+          <p class="copyright text-muted">Copyright &copy; Calen Irwin 2020</p>
         </div>
       </div>
     </div>
