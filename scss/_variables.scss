@@ -20,13 +20,13 @@ $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
-$teal:    #0085A1 !default;
-$cyan:    #17a2b8 !default;
+$scot-blue:    #0065BF !default;
+$cyan:    scot-blue !default;
 
-$primary:       $teal !default;
+$primary:       $scot-blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $scot-blue !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
