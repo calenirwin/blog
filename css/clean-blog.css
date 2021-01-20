@@ -191,7 +191,7 @@ header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
-  color: white;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -255,7 +255,7 @@ header.masthead .post-heading .meta {
 }
 
 header.masthead .post-heading .meta a {
-  color: #fff;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -366,7 +366,7 @@ header.masthead .post-heading .meta a {
 }
 
 form .form-group:first-child .floating-label-form-group {
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid black;
 }
 
 footer {
